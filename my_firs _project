@@ -16,7 +16,7 @@ async def start_handler(message: types.Message):
     user_name = message.from_user.first_name
     user_full_name = message.from_user.full_name
     logging.info(f'{user_id} {user_full_name} {time.asctime()}')
-    await message.reply(f"Hello, {user_full_name}, my name is saintbone_bot. How can i help you?")
+    await message.reply(f"Hello, {user_full_name}, my name is ******_bot. How can i help you?")
 
 
 if __name__ == '__main__':
